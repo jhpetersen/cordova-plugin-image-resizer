@@ -1,3 +1,11 @@
+# FORK INFO
+This is forked from [halloland/cordova-plugin-image-resizer](https://github.com/halloland/cordova-plugin-image-resizer) (which is forked from the original [JoschkaSchulz/cordova-plugin-image-resizer](https://github.com/JoschkaSchulz/cordova-plugin-image-resizer)) to address the following issues:
+
+- only synchronous resizing (thanks to halloland for providing async handling)
+- possible confliciting permission with other plugins (removed config-file entry for Android WRITE_EXTERNAL_STORAGE permission)
+
+**DISCLAIMER: this repo is only for the above mentioned one-time enhancements! it will not be under further development, see original attention note below!**
+
 # ATTENTION
 I don't have any time to maintain this plugin anymore. As long as no one wants to maintain it I don't see the possiblity to fix all the stuff mentioned in the issues, sorry. I recommend to not use this plugin anymore.
 
